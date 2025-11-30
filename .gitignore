@@ -1,5 +1,14 @@
+CLAUDE.md
+.claude
 _site
 .sass-cache
 Gemfile.lock
 *.gem
 .jekyll-cache
+.jekyll-metadata
+vendor/
+.bundle/
+*.log
+.DS_Store
+nohup.out
+

@@ -1,6 +1,12 @@
-title: Minimal theme
-logo: /assets/img/logo.png
-description: Minimal is a theme for GitHub Pages.
+title: Borges
+logo: /assets/img/borges-logo.png
+description: Jorge Luis Borges, famous Argentine writer
 show_downloads: true
-google_analytics:
+google_analytics: G-XRK0EXYP5B
 theme: jekyll-theme-minimal
+baseurl: ""
+url: "https://borges.github.io"
+github:
+  zip_url: /assets/borges-artifacts-sept25.zip
+  tar_url: /assets/borges-paper.pdf
+  repository_url: https://github.com/NU-AquaLab/borges
