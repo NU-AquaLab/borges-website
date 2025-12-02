@@ -16,7 +16,7 @@ layout: default
 
 ## Abstract
 
-Borges is a Python package and CLI tool that maps Autonomous Systems (ASNs) to their parent organizations, revealing the true corporate structure of the Internet. It is based on research published at the [ACM Internet Measurement Conference (IMC) 2025](https://conferences.sigcomm.org/imc/2025/). By combining traditional WHOIS data with AI-powered analysis of websites, favicons, and unstructured text, Borges uncovers hidden relationships that existing methods miss.
+Borges is a Python package and CLI tool that maps Autonomous Systems (ASNs) to their parent organizations, revealing the true corporate structure of the Internet. By combining traditional WHOIS data with AI-powered analysis of websites, favicons, and unstructured text, Borges uncovers hidden relationships that existing methods miss.
 
 Our approach achieves 0.947 accuracy in extracting sibling AS relationships and outperforms prior systems by 7% on the Organization Factor metric. This improved mapping reveals approximately 192 million previously uncounted Internet users and enables better understanding of Internet resilience, incident response, and market concentration.
 
