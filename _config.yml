@@ -4,9 +4,9 @@ description: Jorge Luis Borges, famous Argentine writer
 show_downloads: true
 google_analytics: G-XRK0EXYP5B
 theme: jekyll-theme-minimal
-baseurl: ""
-url: "https://borges.github.io"
+baseurl: "/borges-website"
+url: "https://nu-aqualab.github.io"
 github:
-  zip_url: /assets/borges-artifacts-sept25.zip
-  tar_url: /assets/borges-paper.pdf
+  zip_url: /borges-website/assets/borges-artifacts-sept25.zip
+  tar_url: /borges-website/assets/borges-paper.pdf
   repository_url: https://github.com/NU-AquaLab/borges
