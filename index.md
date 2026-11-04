@@ -33,6 +33,12 @@ Our approach achieves 0.947 accuracy in extracting sibling AS relationships and 
 - 📦 [Artifacts (Sept 2025)](/assets/borges-artifacts-sept25.zip) - Dataset and supplementary materials
 - 💻 [GitHub Repository](https://github.com/NU-AquaLab/borges) - Source code and documentation
 
+## Long-Term Usability
+
+To provide long-term usability, Borges also runs on open-weight models on your own GPU, so it keeps working whatever happens to a hosted model. In a full run with Qwen3 8B on a 12 GB GPU, sibling extraction from PeeringDB notes matched `gpt-4o-mini` on 99.4% of rows, using the same PeeringDB and AS2Org snapshots as the artifacts above. The mappings differ mainly in favicon groups, likely because websites changed between runs. With the [merge guard](https://github.com/NU-AquaLab/borges/blob/main/docs/merge-guard-evaluation.md) on, no group spans 20 or more WHOIS organizations in either mapping.
+
+These numbers measure consistency with the published mapping, not correctness. Read the [evaluation](https://github.com/NU-AquaLab/borges/blob/main/docs/open-weight-evaluation.md) and the [setup guide](https://github.com/NU-AquaLab/borges/blob/main/docs/local-llm.md).
+
 ## Citation
 
 ```bibtex
